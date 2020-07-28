@@ -1,0 +1,157 @@
+body{
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif
+}
+.navbar{
+	background-color: #333;
+	overflow: hidden;
+	border-radius: 0;
+}
+.navbar a{
+	text-decoration: none;
+	color: #eee;
+	font-size: 14px;
+	padding: 14px 16px;
+	display: block;
+}
+.nav-right{
+	margin: 0;
+}
+.navbar a{
+	padding: 15px 10px;
+}
+.navbar li a:hover{
+	background-color: #3eb489;
+}
+.navbar a.active{
+	background-color: #3eb489;
+}
+#carouselSlide{
+	margin-top: -20px;
+}
+.slide1{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slide2{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-mint{
+	background-color: #3eb489;
+	color: #fff;
+}
+.btn-mint:hover{
+	background-color: #3f9978;
+	color: #fff;
+}
+.btn-dark{
+	background-color: #333;
+	color: #fff;
+}
+.btn-dark:hover{
+	background-color: #111;
+	color: #fff;
+}
+.carousel-caption-header{
+	font-family: Century;
+	letter-spacing: 5px;
+}
+#elogo{
+	padding: 0;
+	margin-top: -10px;
+}
+#websiteName{
+	font-size: 20px;
+	font-family: Arial narrow, sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.title{
+	font-weight: bold;
+}
+.hyperlinks{
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing:1px;
+	color: #333;
+}
+.hyperlinks:hover{
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing:1px;
+	color: #3eb489;
+}
+#loginForm{
+	margin-top: 100px;
+	vertical-align: middle;
+}
+.vertical-inputs{
+	margin: 5px 10px;
+}
+.units-bckgrnd{
+	background-color: #3eb489;
+}
+.my-auto{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.vertical-center{
+	min-height: 100%;
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+}
+#pages{
+	width: 100%;
+}	
+#total{
+	float: right;
+}
+.text-mint{
+	color: #3eb489;
+}
+.border-mint{
+	border: 5px solid #3eb489;
+	border-radius: 10px;
+}
+.border-dark{
+	border: 5px solid #333;
+	border-radius: 10px;
+}
+.bckgrnd-dark{
+	background-color: #333;
+	border-radius: 10px;
+	color: #fff;
+}
+.bckgrnd-gray{
+	background-color: #999;
+}
+#table{
+	overflow-x: auto;
+}
+#viewSection{
+	overflow-x: auto;
+}
+.success-box{
+	padding: 10px;
+	border-radius: 5px;
+	color:#3c763d;
+	border: 1px solid #3c763d;
+	background-color: #dff0d8;
+	text-align:center;
+}
+.danger-box{
+	padding: 10px;
+	border-radius: 5px;
+	color:#a94442;
+	border: 1px solid #a94442;
+	background-color: #f2dede;
+	text-align:center;
+}
